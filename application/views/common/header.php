@@ -27,7 +27,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/index.html">Sébastien Adam</a>
+				<a class="navbar-brand" href="<?= site_url('index') ?>">Sébastien Adam</a>
 			</div>
 			<div class="collapse navbar-collapse" id="main_nav">
 				<ul class="nav navbar-nav">
@@ -37,6 +37,7 @@
 						<li>
 							<?= anchor('panneau_de_controle/index', "Panneau de contrôle"); ?>
 						</li>
+						<li><?= anchor('blog', "Blog"); ?></li>
 					<?php endif; ?>
 					<li><?= anchor('contact', "Contact"); ?></li>
 				</ul>
